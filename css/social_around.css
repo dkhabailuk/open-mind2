@@ -1,0 +1,120 @@
+.habits{
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+.habits-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+.habit{
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+.attitudes{
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+.attitude-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.attitude{
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+.impacts{
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+.impacts-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.impact{
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+@media (min-width:768px) and (max-width:1500px){
+  .menu{
+    width: 720px;
+  }
+  .habits{
+    font-size:20px;
+    }
+    .habit{
+        font-size:20px;
+    }
+    .attitudes{
+        font-size:20px;
+    }
+    .attitude{
+        font-size:20px;
+        margin-top: 10px;
+    }
+    .impacts{
+        font-size:20px;
+    }
+    .impact{
+        font-size:20px;
+    }
+    .attitude-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+    }
+}
+@media (min-width:400px) and (max-width:768px){
+    .menu{
+        width: 400px;
+      }
+    .habits{
+        font-size:16px;
+    }
+    .habit{
+         font-size:16px;
+         margin-top: 10px;
+    }
+    .attitudes{
+        font-size:16px;
+    }
+    .attitude{
+         font-size:16px;
+        margin-top: 10px;
+    }
+    .impacts{
+        font-size:16px;
+    }
+    .impact{
+        font-size:16px;
+    }
+    .attitude-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+    }
+    .habits-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+    }
+}

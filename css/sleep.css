@@ -1,0 +1,72 @@
+.main-sleep-info{
+    margin-top: 30px;
+}
+.middle-sleep{
+    width: 100%;
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size:32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.normalise-sleep-cards{
+    max-width: 1490px;
+    grid-template-columns: 730px 730px;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.how-normalise-sleep{
+    width: 100%;
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size:28px;
+    text-align: center;
+}
+.card{
+    border: 5px solid white;
+    padding: 20px;
+    font-size: 25px;
+}
+.card5{
+    grid-column: 1/3;
+}
+.card8{
+    grid-column: 1/3;
+}
+.card9{
+    grid-column: 1/3;
+}
+@media (min-width:768px) and (max-width:1500px){
+    .menu{
+        width: 720px;
+    }
+    .middle-sleep{
+        font-size:20px;
+    }
+    .how-normalise-sleep{
+        font-size:20px;
+    }
+    .card{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+@media (min-width:400px) and (max-width:768px){
+    .menu{
+        width: 400px;
+    }
+    .middle-sleep{
+        font-size:15px;
+        margin-top: -20px;
+    }
+    .how-normalise-sleep{
+        font-size:15px;
+    }
+    .card{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}

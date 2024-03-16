@@ -1,0 +1,124 @@
+.future-plan{
+    width:740px;
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size:24.5px;
+    height: 150px;
+    /* text-align: center; */
+}
+.image-board{
+    border: 5px solid white;
+    padding: 10px;
+    margin-top:20px;
+}
+.plan-faults{
+    display: flex;
+    justify-content: space-between;
+}
+.affects-plans{
+    display: flex;
+    flex-direction: column;
+}
+.how-affects{
+    width:740px;
+    border: 5px solid white;
+    padding: 20px;
+    margin-top: 30px;
+    font-size:24px;
+    height: 310px;
+}
+.title-centre{
+    margin-top: 20px;
+}
+.result-affects{
+    width: 620px;
+    border: 5px solid white;
+    padding: 20px;
+    font-size:23px;
+    margin-top: 20px;
+}
+.last-info{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width:768px) and (max-width:1500px){
+  .menu{
+    width: 720px;
+  }
+  .future-plan{
+        width:720px;
+        font-size:20px;
+        height: 150px;
+    }
+    .plan-faults{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-board{
+        width: 720px;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .affects-plans{
+        display: flex;
+        flex-direction: column;
+    }
+    .how-affects{
+        width:720px;
+        font-size:20px;
+        height: 250px;
+    }
+    .title-centre{
+        margin-top: 20px;
+    }
+    .result-affects{
+        width: 720px;
+        font-size:20px;
+        margin-top: 20px;
+    }
+    .last-info{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width:420px) and (max-width:768px){
+    .menu{
+        width: 400px;
+    }
+    .future-plan{
+        width:400px;
+        font-size:15px;
+        height: 160px;
+    }
+    .plan-faults{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-board{
+        width: 400px;
+        height: 250px;
+        margin-top: 30px;
+    }
+    .affects-plans{
+        display: flex;
+        flex-direction: column;
+    }
+    .how-affects{
+        width:400px;
+        font-size:15px;
+        height: 250px;
+    }
+    .title-centre{
+        margin-top: 20px;
+    }
+    .result-affects{
+        width: 400px;
+        font-size:15px;
+        margin-top: 20px;
+    }
+    .last-info{
+        display: flex;
+        flex-direction: column;
+    }
+}
